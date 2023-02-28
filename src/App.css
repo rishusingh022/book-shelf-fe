@@ -3,3 +3,52 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+.book-shelf-header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-shelf-header-line {
+  height: 6px;
+  width: 40%;
+  background-color: #fff;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.book-shelf-header-content {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.book-shelf-header-content-button {
+  height: 38px;
+  width: 42px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+@media screen and (max-width : 320px) {
+  .book-shelf-header-content-button {
+    height: 20px;
+    width: 30px;
+    font-size: 15px;
+  }
+  .book-shelf-header-content {
+    font-size: 12px;
+  }
+}
